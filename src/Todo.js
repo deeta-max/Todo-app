@@ -1,10 +1,16 @@
+import {  List, ListItem, ListItemAvatar, ListItemText } from '@material-ui/core';
 import React from 'react'
 
 function Todo(props) {
     return (
-        <div>
-             <li>{props.todo}</li>
-        </div>
+        <List >
+            <ListItem>
+            <ListItemAvatar>
+            </ListItemAvatar>
+                <ListItemText primary={props.todo} secondary="Dummy Deadline ⏰" />
+            </ListItem>
+        </List>
+        
     )
 }
 
