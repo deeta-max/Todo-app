@@ -29,8 +29,8 @@ function App() {
     <div className="App">
     <h1>Hello User</h1> 
     <form className="add-form"> 
-    <FormControl>
-      <InputLabel htmlFor="my-input">Add new todo item</InputLabel>
+    <FormControl  >
+      <InputLabel className="add_input" htmlFor="my-input">Add new todo item</InputLabel>
       <Input className="add_input" onChange={event => setInput(event.target.value)} value={input} placeholder="New Item"  id="my-input" aria-describedby="my-helper-text" />
     </FormControl>
     <Button className="add_button" disabled={!input}  type="submit" onClick={addTodo} variant="contained" color="primary">
