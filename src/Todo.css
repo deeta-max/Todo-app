@@ -1,0 +1,20 @@
+.todo_list{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+.delete{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.todo_item{
+    margin: 5px;
+}
+
+.edit-heading{
+    margin: 10px;
+}
+.edit-input{
+    margin: 10px;
+}
